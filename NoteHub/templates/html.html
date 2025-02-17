@@ -38,20 +38,49 @@
 </div>
     <div class="container">
         <section class="section">
-            <h3>👌Standard Html documentation</h3>
+            <h3>💬Text:</h3>
             <ul>
-                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML</a></li>
-                <li><a href="https://html.spec.whatwg.org/multipage/" target="_blank">The official HTML specification</a></li>
-                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML</a></li>
+                <li><a href="https://www.w3schools.com/html/html_formatting.asp?form=MG0AV3" target="_blank">HTML Text Formatting - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html_paragraphs.asp?form=MG0AV3" target="_blank">HTML Paragraphs - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html_headings.asp?form=MG0AV3" target="_blank">HTML Headings - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html_lists.asp?form=MG0AV3" target="_blank">HTML Lists - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html_links.asp?form=MG0AV3" target="_blank">HTML Links - W3Schools</a></li>
             </ul>
         </section>
 
         <section class="section">
-            <h3>💻Using Html</h3>
-            <p>HTML is used to create the structure of web pages, format text, insert images and media, and create forms for user interaction.</p>
+            <h3>🔘Buttons:</h3>
             <ul>
-                <li><a href="https://www.html5rocks.com/en/" target="_blank">HTML5 Rocks</a></li>
-                <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy HTML</a></li>
+                <li><a href="https://www.w3schools.com/tags/tag_button.asp?form=MG0AV3" target="_blank">HTML Button Tag - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/tags/tag_input.asp?form=MG0AV3" target="_blank">HTML Input Element - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html_forms.asp?form=MG0AV3" target="_blank">HTML Submit Button - W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button?form=MG0AV3" target="_blank">HTML Button Element - MDN Web Docs</a></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h3>📑Forms:</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html_forms.asp?form=MG0AV3" target="_blank">HTML Forms - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html_form_elements.asp?form=MG0AV3" target="_blank">HTML Form Elements - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html_form_input_types.asp?form=MG0AV3" target="_blank">HTML Input Types - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/tags/ref_attributes.asp?form=MG0AV3" target="_blank">HTML Form Attributes - W3Schools</a></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h3>🎞️Media files:</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html_images.asp?form=MG0AV3" target="_blank">HTML Images - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html5_video.asp" target="_blank">HTML Video - W3Schools</a></li>
+                <li><a href="https://www.w3schools.com/html/html5_audio.asp" target="_blank">HTML Audio - W3Schools</a></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h3>👀Other important resources:</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta?form=MG0AV3" target="_blank">HTML Metadata - MDN Web Docs</a></li>
             </ul>
         </section>
 
@@ -59,10 +88,54 @@
             <h3>📽️Html video tutorials</h3>
             <ul>
                 <li><a href="https://www.youtube.com/results?search_query=html+tutorial" target="_blank">HTML Tutorials on YouTube</a></li>
-                <li><a href="https://www.udemy.com/course/web-development-with-html-css-javascript/" target="_blank">HTML/CSS Web Development - Udemy</a></li>
             </ul>
         </section>
-<a href="{{ url_for('home') }}" class="btn-back" style="padding: 10px 20px; font-size: 16px; background-color: #333; color: #f0f0f0; text-align: center; text-decoration: none; border-radius: 5px; border: 1px solid #555;">← Back</a>
+
+        <section class="section">
+            <h3>👩‍💻Code</h3>
+            <h4>Creating a button:</h4>
+            <pre style="background-color: #1e1e1e; color: #ffffff; padding: 10px; border-radius: 8px; border: 1px solid #444; font-family: 'Courier New', monospace; overflow-x: auto;">
+            <code>
+&lt;button&gt;Click me&lt;/button&gt;
+            </code>
+            </pre>
+
+            <h4>A form with input fields:</h4>
+             <pre style="background-color: #1e1e1e; color: #ffffff; padding: 10px; border-radius: 8px; border: 1px solid #444; font-family: 'Courier New', monospace; overflow-x: auto;">
+            <code>
+&lt;form action=&quot;/submit&quot; method=&quot;POST&quot;&gt;
+    &lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;
+    &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot;&gt;
+    &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+&lt;/form&gt;
+            </code>
+            </pre>
+
+            <h4>Insert an image:</h4>
+            <pre style="background-color: #1e1e1e; color: #ffffff; padding: 10px; border-radius: 8px; border: 1px solid #444; font-family: 'Courier New', monospace; overflow-x: auto;">
+            <code>
+&lt;img src=&quot;image.jpg&quot; alt=&quot;Description of image&quot;&gt;
+            </code>
+            </pre>
+
+            <h4>Create a table:</h4>
+            <pre style="background-color: #1e1e1e; color: #ffffff; padding: 10px; border-radius: 8px; border: 1px solid #444; font-family: 'Courier New', monospace; overflow-x: auto;">
+            <code>
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Data 1&lt;/td&gt;
+        &lt;td&gt;Data 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+            </code>
+            </pre>
+
+        </section>
+<a href="{{ url_for('home') }}" class="btn-back" style="padding: 10px 20px; font-size: 16px; background-color: #333; color: #f0f0f0; text-align: center; text-decoration: none; border-radius: 5px; border: 1px solid #555;">← Menu</a>
     </div>
 </body>
 </html>
