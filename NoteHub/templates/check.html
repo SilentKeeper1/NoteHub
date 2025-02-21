@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="checkButton">Перевірити сервер</button>
+<p id="output"></p>
+
+<script>
+    document.getElementById("checkButton").addEventListener("click", () => {
+        fetch("/check")
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("output").textContent = data.message;
+            })
+            .catch(error => {
+                document.getElementById("output").textContent = "Помилка: " + error;
+            });
+    });
+</script>
+</body>
+</html>
